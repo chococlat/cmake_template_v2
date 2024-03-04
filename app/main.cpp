@@ -16,6 +16,6 @@ namespace fs = std::filesystem;
 
 int main(){
     // std::cout << cmd("ifconfig");
-    std::wcout << "Hello ProjGen\n";
+    std::wcout << "Hello World!\n";
     return 0;
 }
