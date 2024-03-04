@@ -1,4 +1,8 @@
 ﻿#include <iostream>
+#include <cstdio>
+#include <memory>
+#include <stdexcept>
+#include <string>
 #include <filesystem>
 #include "class.h"
 
@@ -8,14 +12,10 @@ using std::string;
 using std::wcin;
 using std::wcout;
 using std::wstring;
-
 namespace fs = std::filesystem;
 
-int main()
-{
-
-    Test tclass;
-    tclass.run();
-
+int main(){
+    // std::cout << cmd("ifconfig");
+    std::wcout << "Hello ProjGen\n";
     return 0;
 }

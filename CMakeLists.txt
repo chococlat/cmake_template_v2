@@ -10,7 +10,7 @@ if (POLICY CMP0141)
 endif()
 
 # Create project
-project(cmake_app VERSION 0.1.0 LANGUAGES C CXX)
+project(cmake_template_v2 VERSION 0.1.0 LANGUAGES C CXX)
 
 # Add subdirectories
 set(SUB_DIRS app)
